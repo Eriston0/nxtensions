@@ -13,6 +13,9 @@
     "astro",
     "monorepo"
   ],
+  "scripts": {
+    "prepack": "npx nx build"
+  },
   "author": "Leosvel Pérez Espinosa <leosvel.perez.espinosa@gmail.com>",
   "license": "MIT",
   "bugs": {

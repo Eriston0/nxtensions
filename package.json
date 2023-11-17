@@ -12,6 +12,9 @@
     "release": "ts-node ./tools/scripts/release-project.ts",
     "prepare": "husky install"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "private": true,
   "dependencies": {
     "@nx/devkit": "16.9.1",
